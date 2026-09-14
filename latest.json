@@ -1,21 +1,23 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.0",
+  "versao": "0.2.1",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T16:36:51Z",
+  "publicado_em": "2026-09-14T17:01:34Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.0.zip",
+    "nome": "Trinity_v0.2.1.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.0/Trinity_v0.2.0.zip",
-    "sha256": "fd31de8b06252d5b1b71ceef03b3ccb06a9a3dc3b6cb45912c2df59a94401813",
-    "tamanho": 14568647
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.1/Trinity_v0.2.1.zip",
+    "sha256": "20e2eb70fcce5d77968dd906e23a4a95e0e52f6fc8eb7a402be217cde5f981fe",
+    "tamanho": 14582157
   },
   "changelog": [
-    "Configuracoes > Git: nome e e-mail obrigatorios antes de commitar; importados do Git na primeira execucao e gravados so no repositorio do addons-br.",
-    "Configuracoes ficam em config\\settings.ini, ao lado do programa, editavel a mao.",
-    "Atualizacao automatica pela vitrine (verifica ao abrir e a cada 5 min; troca ao reabrir), com Verificar agora, Baixar, Reiniciar e Voltar a versao anterior."
+    "O aviso de atualizacao na barra so aparece com versao nova ou reinicio pendente; falha de verificacao fica em Configuracoes > Atualizacoes.",
+    "Painel da direita dividido em duas metades fixas: Alteracoes pendentes e Ultimos commits.",
+    "Botao X em cada alteracao pendente: ignora o arquivo nesta maquina (.git\\info\u001bxclude), sem sujar a branch.",
+    "Configuracoes mais larga e arejada: rotulo e campo lado a lado, respiro entre linhas.",
+    "Gerar diagnostico (barra do console): .zip com settings.ini, logs, estado do repositorio e print da janela, em diagnostico\\ ao lado do programa."
   ]
 }
