@@ -1,20 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.3",
+  "versao": "0.2.4",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T17:35:24Z",
+  "publicado_em": "2026-09-14T17:54:51Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.3.zip",
+    "nome": "Trinity_v0.2.4.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.3/Trinity_v0.2.3.zip",
-    "sha256": "43b012ffa5e54d17e811c0ff5cf5bedfd5ea3d81609e87cd3d6b31ae451b0530",
-    "tamanho": 14586887
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.4/Trinity_v0.2.4.zip",
+    "sha256": "27166089687c502e053d42ce78e3e11e626f1b4ba7cf41f25ae880c250e9dbe5",
+    "tamanho": 14593502
   },
   "changelog": [
-    "Corrigido: a pasta escolhida em Configuracoes > Repositorio era sobrescrita pela antiga antes do Aplicar; agora a pasta escolhida passa a valer.",
-    "Baixar repositorio: pasta vazia clona; pasta antiga do projeto (export antigo ou clone de outra origem) pergunta \"Deseja continuar?\" e substitui os arquivos; pasta com outros arquivos e recusada com aviso."
+    "Baixar repositorio numa maquina com mais de uma conta do GitHub (gerenciada por pasta/includeIf): o Trinity usa a conta que ja vale para o projeto, tanto no clone quanto no push. Com uma conta so, nada muda. Campo opcional \"Usuario GitHub\" em Configuracoes > Git.",
+    "Rotulos dos botoes nao sao mais cortados em janela de 1280 px; tamanho minimo da janela passou a 1100x700 e a barra superior quebra linha em vez de esconder botao."
   ]
 }
