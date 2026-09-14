@@ -1,0 +1,21 @@
+{
+  "esquema": 1,
+  "ferramenta": "Trinity",
+  "versao": "0.2.0",
+  "canal": "estavel",
+  "publicado_em": "2026-09-14T16:36:51Z",
+  "obrigatoria": false,
+  "minima_suportada": "0.0.0",
+  "arquivo": {
+    "nome": "Trinity_v0.2.0.zip",
+    "exe": "Trinity.exe",
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.0/Trinity_v0.2.0.zip",
+    "sha256": "fd31de8b06252d5b1b71ceef03b3ccb06a9a3dc3b6cb45912c2df59a94401813",
+    "tamanho": 14568647
+  },
+  "changelog": [
+    "Configuracoes > Git: nome e e-mail obrigatorios antes de commitar; importados do Git na primeira execucao e gravados so no repositorio do addons-br.",
+    "Configuracoes ficam em config\\settings.ini, ao lado do programa, editavel a mao.",
+    "Atualizacao automatica pela vitrine (verifica ao abrir e a cada 5 min; troca ao reabrir), com Verificar agora, Baixar, Reiniciar e Voltar a versao anterior."
+  ]
+}
