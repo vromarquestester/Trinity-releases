@@ -1,20 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.5",
+  "versao": "0.2.6",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T18:10:36Z",
+  "publicado_em": "2026-09-14T18:20:49Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.5.zip",
+    "nome": "Trinity_v0.2.6.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.5/Trinity_v0.2.5.zip",
-    "sha256": "cc55593cd342ef3ee308dc6a06b7d6fe9b72bd7ec43eccdd81b22746a6dd2905",
-    "tamanho": 14594204
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.6/Trinity_v0.2.6.zip",
+    "sha256": "6a7db634b7b203842a64cd13cd112f47788542d0140912227d9f913ce20d64dc",
+    "tamanho": 14596728
   },
   "changelog": [
-    "Enquanto o repositorio baixa, o aviso diz \"Baixando o repositorio...\" em vez de \"outros arquivos\" com erro do Git colado.",
-    "Avisos de pasta (vazia, antiga do projeto, com outros arquivos) ficaram curtos, em tom neutro e sem vermelho."
+    "\"Verificar agora\" consulta a vitrine direto pela API do GitHub e ve a versao nova na hora; antes podia dizer \"voce esta na versao mais recente\" por ate 5 min depois da publicacao (cache da CDN). O ciclo automatico de 5 min continua igual."
   ]
 }
