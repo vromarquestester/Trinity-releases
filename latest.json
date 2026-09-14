@@ -1,23 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.1",
+  "versao": "0.2.2",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T17:01:34Z",
+  "publicado_em": "2026-09-14T17:14:23Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.1.zip",
+    "nome": "Trinity_v0.2.2.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.1/Trinity_v0.2.1.zip",
-    "sha256": "20e2eb70fcce5d77968dd906e23a4a95e0e52f6fc8eb7a402be217cde5f981fe",
-    "tamanho": 14582157
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.2/Trinity_v0.2.2.zip",
+    "sha256": "bc539a10cded42b00db486dd2d86438549a8163b2b883417ab895da59c295d65",
+    "tamanho": 14585257
   },
   "changelog": [
-    "O aviso de atualizacao na barra so aparece com versao nova ou reinicio pendente; falha de verificacao fica em Configuracoes > Atualizacoes.",
-    "Painel da direita dividido em duas metades fixas: Alteracoes pendentes e Ultimos commits.",
-    "Botao X em cada alteracao pendente: ignora o arquivo nesta maquina (.git\\info\u001bxclude), sem sujar a branch.",
-    "Configuracoes mais larga e arejada: rotulo e campo lado a lado, respiro entre linhas.",
-    "Gerar diagnostico (barra do console): .zip com settings.ini, logs, estado do repositorio e print da janela, em diagnostico\\ ao lado do programa."
+    "Pasta do repositorio saiu da barra superior e foi para Configuracoes > Repositorio, com botao Escolher... ao lado; aceita pasta vazia.",
+    "Botao Baixar repositorio (fecha a grade de acoes): clona o addons-br na pasta vazia configurada e instala o hook; some quando o repositorio ja existe."
   ]
 }
