@@ -1,20 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.4",
+  "versao": "0.2.5",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T17:54:51Z",
+  "publicado_em": "2026-09-14T18:10:36Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.4.zip",
+    "nome": "Trinity_v0.2.5.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.4/Trinity_v0.2.4.zip",
-    "sha256": "27166089687c502e053d42ce78e3e11e626f1b4ba7cf41f25ae880c250e9dbe5",
-    "tamanho": 14593502
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.5/Trinity_v0.2.5.zip",
+    "sha256": "cc55593cd342ef3ee308dc6a06b7d6fe9b72bd7ec43eccdd81b22746a6dd2905",
+    "tamanho": 14594204
   },
   "changelog": [
-    "Baixar repositorio numa maquina com mais de uma conta do GitHub (gerenciada por pasta/includeIf): o Trinity usa a conta que ja vale para o projeto, tanto no clone quanto no push. Com uma conta so, nada muda. Campo opcional \"Usuario GitHub\" em Configuracoes > Git.",
-    "Rotulos dos botoes nao sao mais cortados em janela de 1280 px; tamanho minimo da janela passou a 1100x700 e a barra superior quebra linha em vez de esconder botao."
+    "Enquanto o repositorio baixa, o aviso diz \"Baixando o repositorio...\" em vez de \"outros arquivos\" com erro do Git colado.",
+    "Avisos de pasta (vazia, antiga do projeto, com outros arquivos) ficaram curtos, em tom neutro e sem vermelho."
   ]
 }
