@@ -1,19 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.8",
+  "versao": "0.2.9",
   "canal": "estavel",
-  "publicado_em": "2026-09-15T13:12:55Z",
+  "publicado_em": "2026-09-15T13:18:38Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.8.zip",
+    "nome": "Trinity_v0.2.9.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.8/Trinity_v0.2.8.zip",
-    "sha256": "af0c2a54152ec9bcefa9a07ffa1f6dd157dfd2e08085e283f2a232e9d4a35b12",
-    "tamanho": 14597041
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.9/Trinity_v0.2.9.zip",
+    "sha256": "3a7242a1d5965002868a6dcba9a0aa54dec556ac0066fe98922e7d8ea83179dd",
+    "tamanho": 14597314
   },
   "changelog": [
-    "A aba Atualizacoes nao mostra mais \"Outras ferramentas\": o Trinity e de outro projeto e nao faz parte da familia do Gerenciador de Ambientes/NebulaTIR."
+    "Aba Sobre traz o credito do autor."
   ]
 }
