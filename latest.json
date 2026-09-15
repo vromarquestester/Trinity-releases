@@ -1,21 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.7",
+  "versao": "0.2.8",
   "canal": "estavel",
-  "publicado_em": "2026-09-15T11:05:29Z",
+  "publicado_em": "2026-09-15T13:12:55Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.7.zip",
+    "nome": "Trinity_v0.2.8.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.7/Trinity_v0.2.7.zip",
-    "sha256": "999e6cf1295f503471b508b82af57ec3d0d343a68914c594a272bcc1e5dd0ec5",
-    "tamanho": 14596305
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.8/Trinity_v0.2.8.zip",
+    "sha256": "af0c2a54152ec9bcefa9a07ffa1f6dd157dfd2e08085e283f2a232e9d4a35b12",
+    "tamanho": 14597041
   },
   "changelog": [
-    "Travado num addon, a lista da esquerda mostra so ele. Para trocar de addon, volte para a main primeiro; o botao \"Travar no addon\" fica desabilitado enquanto travado.",
-    "Painel de alteracoes pendentes nao muda enquanto um script roda: some o \"pisca\" de arquivos \"D\" durante a troca de addon.",
-    "Pasta configurada dentro de outro repositorio Git e recusada (o Git agiria no repositorio de cima). O chip Sparse mostra os nomes das pastas em vez de \"2 pasta(s)\"."
+    "A aba Atualizacoes nao mostra mais \"Outras ferramentas\": o Trinity e de outro projeto e nao faz parte da familia do Gerenciador de Ambientes/NebulaTIR."
   ]
 }
