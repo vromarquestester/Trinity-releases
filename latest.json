@@ -1,19 +1,21 @@
 {
   "esquema": 1,
   "ferramenta": "Trinity",
-  "versao": "0.2.6",
+  "versao": "0.2.7",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T18:20:49Z",
+  "publicado_em": "2026-09-15T11:05:29Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "Trinity_v0.2.6.zip",
+    "nome": "Trinity_v0.2.7.zip",
     "exe": "Trinity.exe",
-    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.6/Trinity_v0.2.6.zip",
-    "sha256": "6a7db634b7b203842a64cd13cd112f47788542d0140912227d9f913ce20d64dc",
-    "tamanho": 14596728
+    "url": "https://github.com/vromarquestester/Trinity-releases/releases/download/v0.2.7/Trinity_v0.2.7.zip",
+    "sha256": "999e6cf1295f503471b508b82af57ec3d0d343a68914c594a272bcc1e5dd0ec5",
+    "tamanho": 14596305
   },
   "changelog": [
-    "\"Verificar agora\" consulta a vitrine direto pela API do GitHub e ve a versao nova na hora; antes podia dizer \"voce esta na versao mais recente\" por ate 5 min depois da publicacao (cache da CDN). O ciclo automatico de 5 min continua igual."
+    "Travado num addon, a lista da esquerda mostra so ele. Para trocar de addon, volte para a main primeiro; o botao \"Travar no addon\" fica desabilitado enquanto travado.",
+    "Painel de alteracoes pendentes nao muda enquanto um script roda: some o \"pisca\" de arquivos \"D\" durante a troca de addon.",
+    "Pasta configurada dentro de outro repositorio Git e recusada (o Git agiria no repositorio de cima). O chip Sparse mostra os nomes das pastas em vez de \"2 pasta(s)\"."
   ]
 }
